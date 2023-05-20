@@ -1,0 +1,25 @@
+
+a. Quais são as variáveis de classe?
+R: As variáveis são: "static int cor" e "public static String NOME = "ExercicioUm.Azul";"
+
+b. Quais são os construtores?
+R: O construtor é: "public ExercicioUm.Azul(int tonalidade)"
+
+c. Quais métodos fazem parte da interface dessa classe?
+R: Os métodos são: "ExercicioUm.Azul()", "getTonalidade()", "setTonalidade()", "tornarMaisEscuro()", "calcularTonalidade()", "TornarTonalidadeMaisEscura()"
+
+d. Sem mudar o código que está escrito. Implemente o método setTonalidade e
+a variável que ele necessita.
+R: Resposta referenciada no código.
+
+e. Sem mudar o código que está escrito. Implemente o construtor.
+R: Resposta referenciada no código.
+
+f. O código abaixo roda? Justifique.
+
+var color = new Blue();
+
+R: O código acima não rodaria na linguagem JAVA, porque "var" não é um tipo de dado reconhecido até então.
+Para que ele funcione, acredito que alterar 'var' por 'Blue', ficando "Blue color = new Blue()", funcionaria, já que estou instanciando um objeto novo da classe Blue.
+
+g. Crie uma ExercicioUm.Main e implemente uma lógica a classe ExercicioUm.Azul.
